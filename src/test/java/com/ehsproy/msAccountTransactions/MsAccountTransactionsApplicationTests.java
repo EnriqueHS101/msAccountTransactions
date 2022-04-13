@@ -1,10 +1,10 @@
-package com.ehsproy.AccountTransactions;
+package com.ehsproy.msAccountTransactions;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class AccountTransactionsApplicationTests {
+class MsAccountTransactionsApplicationTests {
 
 	@Test
 	void contextLoads() {

@@ -1,4 +1,4 @@
-package com.ehsproy.AccountTransactions.model;
+package com.ehsproy.msAccountTransactions.model;
 
 import java.time.LocalDate;
 
@@ -8,16 +8,15 @@ import org.springframework.data.mongodb.core.mapping.Document;
 import lombok.Data;
 
 @Data
-@Document("movimientoBancario")
+@Document("AccountTransaction")
 public class AccountTransaction {
 
 	@Id
 	private String id;
-	private String docNumberClient;
-	private String accountNumber;
+	private String idAccount;
 	private LocalDate dateTransaction;
 	private Double amount;
-	private String typeOperation;
+	private String idTypeOperation;
 	private Boolean status;
 	
 	
